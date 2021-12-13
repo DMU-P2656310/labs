@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #be0000;
+  padding: 5px;
+  text-align: center;
+  font-size: 45px;
+  color: #FCC200;
+}
+
+nav {
+  float: left;
+  width: 100%;
+  height: 150px;
+  background: #FCC200;
+  padding: 40px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 30;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #FCC200;
+  height: 300px;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: #be0000;
+  padding: 20px;
+  text-align: center;
+  color: #FCC200;
+}
+
+(max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+</style>
+</head>
+<body style="background-color: #FCC200;">
+
+<div class="container">
+
+  <header>
+    <h2>IronMan (2008)</h2>
+  </header>
+
+</div>
+
+  <section>
+    <nav>
+      <ul>
+        <li><a href="firstpage.html">Home</a></li>
+        <li><a style="font-size:150%;"href="nextpage.html">Cast</a></li>
+      </ul>
+    </nav>
+</section>
+
+<h2>Robert Downey Jr</h2>
+<img src="image/robertdowneyjr.jpg" alt="robertdowneyjr" width="220px" height="320px">
+<img src="image/tonystark.jpeg" alt="tonystark" width="500px" height="320px">
+<audio controls loop>
+  <source src="audio\bbc.mp3" type="audio/mpeg">
+  <source src="audio\bbc.wav" type="audio/wav">
+  <source src="audio\bbc.ogg" type="audio/ogg">
+  Your browser does not support the audio element.
+</audio>
+<span>Robert Downey Jr. has evolved into one of the most respected actors in Hollywood. With an amazing list of credits to his name, he has managed to stay new and fresh even after over four decades in the business.
+Downey was born April 4, 1965 in Manhattan, New York, the son of writer, director and filmographer Robert Downey Sr. and actress Elsie Downey (née Elsie Ann Ford). Downey Jr. made his debut as an actor at the age of five in the film Pound (1970), written and directed by his father, Robert Downey Sr.. He built his film repertoire throughout the 1980s and 1990s with roles in Tuff Turf (1985), Weird Science (1985), True Believer (1989), and Wonder Boys (2000) among many others. In 1992, Downey received an Academy Award nomination and won the BAFTA (British Academy Award) for Best Actor for his performance in the title role of Chaplin (1992).</span>
+
+<br>
+
+<h2>Gwyneth Paltrow</h2>
+<img src="image/gwynethpaltrow.jpg" alt="gwynethpaltrow" width="220px" height="320px">
+<img src="image/pepperpotts.jpeg" alt="pepperpotts" width="500px" height="320px">
+<audio controls loop>
+  <source src="audio\bbc.mp3" type="audio/mpeg">
+  <source src="audio\bbc.wav" type="audio/wav">
+  <source src="audio\bbc.ogg" type="audio/ogg">
+  Your browser does not support the audio element.
+</audio>
+<span>A tall, wafer thin, delicate beauty, Gwyneth Kate Paltrow was born in Los Angeles, the daughter of noted producer and director Bruce Paltrow and Tony Award-winning actress Blythe Danner. Her father was from a Jewish family, while her mother is of mostly German descent. She made her film debut with a small part in Shout (1991) and for the next five years had featured roles in a mixed bag of film fare that included Flesh and Bone (1993); Mrs. Parker and the Vicious Circle (1994); Seven (1995); Jefferson in Paris (1995); Moonlight and Valentino (1995); and The Pallbearer (1996).</span>
+
+<footer>P2656310</footer>
+
+</body>
+</html>

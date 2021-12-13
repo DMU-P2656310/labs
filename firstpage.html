@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+background-color:
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #be0000;
+  padding: 5px;
+  text-align: center;
+  font-size: 45px;
+  color: #FCC200;
+}
+
+nav {
+  float: left;
+  width: 30%;
+  height: 300px;
+  background: #FCC200;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 50;
+}
+
+aside {
+  float: right;
+  padding: 20px;
+  width: 60%;
+  background-color: #FCC200;
+  height: 300px;
+}
+
+section::after {
+  content: ""
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: #be0000;
+  padding: 20px;
+  text-align: center;
+  color: #FCC200;
+}
+
+(max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body style="background-color: #FCC200;">
+
+<div class="container">
+
+  <header>
+    <h2>IronMan (2008)</h2>
+  </header>
+
+</div>
+
+  <section>
+    <nav>
+      <ul>
+        <li><a style="font-size:150%;"href="firstpage.html">Home</a></li>
+        <li><a href="nextpage.html">Cast</a></li>
+      </ul>
+    </nav>
+
+  <aside>
+    <h1>Sypnosis</h1>
+    <p>Tony Stark. Genius, billionaire, playboy, philanthropist. Son of legendary inventor and weapons contractor Howard Stark. When Tony Stark is assigned to give a weapons presentation to an Iraqi unit led by Lt. Col. James Rhodes, he's given a ride on enemy lines. That ride ends badly when Stark's Humvee that he's riding in is attacked by enemy combatants. He survives - barely - with a chest full of shrapnel and a car battery attached to his heart. In order to survive he comes up with a way to miniaturize the battery and figures out that the battery can power something else.</p>
+    <p> Thus Iron Man is born. He uses the primitive device to escape from the cave in Iraq. Tony's genius mind stimulates the motion of him building an armored suit and upends his captors within the cave. Returning to America, Stark refines the suit and uses it to combat crime and terrorism, while being notified that the people closest to him were not ones to be trusted from the start. The man who was put in charge of Stark Industries has plans of his own to take over Tony's technology for other matters...</p>
+  </aside>
+</section>
+
+<video controls width="100%" poster="image/poster.jpg">
+  <source src="video/ironman.mp4" type="video/ironman.mp4">
+  <source src="video/ironman.ogv" type="video/ironman.ogg">
+  <source src="video/ironman.webm" type="video/ironman.webm">
+  Your browser does not support the video tag.
+</video>
+
+<footer>
+  <p>P2656310</p>
+</footer>
+
+</body>
+</html>
