@@ -1,118 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>CSS Template</title>
+<link rel="stylesheet" href="css\home.css">
+<!-- Here the css sheet is linked in with the first page of html. -->
+<title>IronMan</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-header {
-  background-color: #be0000;
-  padding: 5px;
-  text-align: center;
-  font-size: 45px;
-  color: #FCC200;
-}
-
-nav {
-  float: left;
-  width: 100%;
-  height: 150px;
-  background: #FCC200;
-  padding: 40px;
-}
-
-nav ul {
-  list-style-type: none;
-  padding: 30;
-}
-
-img {
-  vertical-align: bottom;
-}
-
-article {
-  float: left;
-  padding: 20px;
-  width: 70%;
-  background-color: #FCC200;
-  height: 300px;
-}
-
-section::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-footer {
-  background-color: #be0000;
-  padding: 20px;
-  text-align: center;
-  color: #FCC200;
-}
-
-(max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
-  }
-}
-
-</style>
+<!-- This element helps scale the webpage better on mobile. -->
 </head>
-<body style="background-color: #FCC200;">
 
-<div class="container">
+<body style="background-color: #FCC200;">
+<!-- Here the background colour of the page is altered to a specific major
+colour.-->
 
   <header>
     <h2>IronMan (2008)</h2>
   </header>
+<!-- Here I have highlighted the text with the header element, so the css page
+can pick up and edit this aspect. Header elements typically represent
+introductory content, like a title or a set of navigational links: I have
+proven that here with the film's title name. -->
 
-</div>
+  <nav>
+    <ul>
+      <li><a class="cast2"style="font-size:150%;"href="nextpage.html">Cast</a></li>
+      <li><a class="home2"href="firstpage.html">Home</a></li>
+    </ul>
+  </nav>
+<!-- These navigational elements surround the navigation links, which are
+connected in with eachother from the first page, to the second page. The 'ul'
+elements are applied to remove the bullet points for a more professional appeal. -->
 
-  <section>
-    <nav>
-      <ul>
-        <li><a href="firstpage.html">Home</a></li>
-        <li><a style="font-size:150%;"href="nextpage.html">Cast</a></li>
-      </ul>
-    </nav>
-</section>
+<h2 class="castname">Robert Downey Jr</h2>
+<img src="image/robertdowneyjr.jpg" alt="robertdowneyjr" style="float:right;width:215px;height:290px;">
+<img src="image/tonystark.jpeg" alt="tonystark" style="float:right;width:440px;height:290px">
+<!-- Here I have made effective use of the heading element, highlighting the cast
+member's name. The images element is also utilised here, to where i've applied
+alterations to the image such as, where I wanted the images situated, the width
+and height overall.-->
 
-<h2>Robert Downey Jr</h2>
-<img src="image/robertdowneyjr.jpg" alt="robertdowneyjr" width="220px" height="320px">
-<img src="image/tonystark.jpeg" alt="tonystark" width="500px" height="320px">
+</audio>
 <audio controls loop>
-  <source src="audio\bbc.mp3" type="audio/mpeg">
-  <source src="audio\bbc.wav" type="audio/wav">
-  <source src="audio\bbc.ogg" type="audio/ogg">
+  <source src="audio\interview.mp3" type="audio/mpeg">
+  <source src="audio\interview.wav" type="audio/wav">
+  <source src="audio\interview.ogg" type="audio/ogg">
   Your browser does not support the audio element.
 </audio>
-<span>Robert Downey Jr. has evolved into one of the most respected actors in Hollywood. With an amazing list of credits to his name, he has managed to stay new and fresh even after over four decades in the business.
-Downey was born April 4, 1965 in Manhattan, New York, the son of writer, director and filmographer Robert Downey Sr. and actress Elsie Downey (née Elsie Ann Ford). Downey Jr. made his debut as an actor at the age of five in the film Pound (1970), written and directed by his father, Robert Downey Sr.. He built his film repertoire throughout the 1980s and 1990s with roles in Tuff Turf (1985), Weird Science (1985), True Believer (1989), and Wonder Boys (2000) among many others. In 1992, Downey received an Academy Award nomination and won the BAFTA (British Academy Award) for Best Actor for his performance in the title role of Chaplin (1992).</span>
+<!-- The audio element is utilised perfectly here, where I have coded in three
+different formats of audio for the interviews. I've also applied a loop control,
+where viewers will listen to the audio on loop and pause when they want to.-->
+
+<p class="rdj">Listen to Downey Jr's Latest EXCLUSIVE Interview <br> <br>Robert
+Downey Jr. has evolved into one of the most respected actors in Hollywood. With
+an amazing list of credits to his name, he has managed to stay new and fresh even
+after over four decades in the business. Downey was born April 4, 1965 in
+Manhattan, New York, the son of writer, director and filmographer Robert Downey
+Sr. and actress Elsie Downey (née Elsie Ann Ford). Downey Jr. made his debut as
+an actor at the age of five in the film Pound (1970), written and directed by his
+father, Robert Downey Sr.. He built his film repertoire throughout the 1980s and
+1990s with roles in Tuff Turf (1985), Weird Science (1985), True Believer (1989),
+and Wonder Boys (2000) among many others. In 1992, Downey received an Academy
+Award nomination and won the BAFTA (British Academy Award) for Best Actor for his
+performance in the title role of Chaplin (1992).</p>
+<!-- I have added a paragraph here, describing the actors' background and past/
+popular movies. The css picks up this element, to where I applied padding, text
+shadow and even weight to the font.-->
 
 <br>
 
-<h2>Gwyneth Paltrow</h2>
-<img src="image/gwynethpaltrow.jpg" alt="gwynethpaltrow" width="220px" height="320px">
-<img src="image/pepperpotts.jpeg" alt="pepperpotts" width="500px" height="320px">
+<h2 class="castname">Gwyneth Paltrow</h2>
+<img src="image/gwynethpaltrow.jpg" alt="gwynethpaltrow" style="float:left;width:180px;height:260px;">
+<img src="image/pepperpotts.jpeg" alt="pepperpotts" style="float:left;width:400px;height:260px;">
+<!-- Here I have made effective use of the heading element, highlighting the cast
+member's name. The images element is also utilised here, to where i've applied
+alterations to the image such as, where I wanted the images situated, the width
+and height overall.-->
+
+</audio>
 <audio controls loop>
-  <source src="audio\bbc.mp3" type="audio/mpeg">
-  <source src="audio\bbc.wav" type="audio/wav">
-  <source src="audio\bbc.ogg" type="audio/ogg">
+  <source src="audio\interview.mp3" type="audio/mpeg">
+  <source src="audio\interview.wav" type="audio/wav">
+  <source src="audio\interview.ogg" type="audio/ogg">
   Your browser does not support the audio element.
 </audio>
-<span>A tall, wafer thin, delicate beauty, Gwyneth Kate Paltrow was born in Los Angeles, the daughter of noted producer and director Bruce Paltrow and Tony Award-winning actress Blythe Danner. Her father was from a Jewish family, while her mother is of mostly German descent. She made her film debut with a small part in Shout (1991) and for the next five years had featured roles in a mixed bag of film fare that included Flesh and Bone (1993); Mrs. Parker and the Vicious Circle (1994); Seven (1995); Jefferson in Paris (1995); Moonlight and Valentino (1995); and The Pallbearer (1996).</span>
+<!-- The audio element is utilised perfectly here, where I have coded in three
+different formats of audio for the interviews. I've also applied a loop control,
+where viewers will listen to the audio on loop and pause when they want to.-->
+
+<p class="gp">Listen to Paltrow's Latest EXCLUSIVE Interview <br> <br> A tall,
+wafer thin, delicate beauty, Gwyneth Kate Paltrow was born in Los Angeles, the
+daughter of noted producer and director Bruce Paltrow and Tony Award-winning
+actress Blythe Danner. Her father was from a Jewish family, while her mother is
+of mostly German descent. She made her film debut with a small part in Shout
+(1991) and for the next five years had featured roles in a mixed bag of film
+fare that included Flesh and Bone (1993); Mrs. Parker and the Vicious Circle
+(1994); Seven (1995); Jefferson in Paris (1995); Moonlight and Valentino (1995);
+and The Pallbearer (1996). It was her performance in the title role of Emma
+Woodhouse in Emma (1996) that led to her being offered the role of Viola in
+Shakespeare in Love (1998), for which she was awarded the Golden Globe, Screen
+Actors Guild and Academy Awards for Best Actress in a Leading Role. Her roles
+have also included The Royal Tenenbaums (2001), Shallow Hal (2001), Sky Captain
+and the World of Tomorrow (2004), Iron Man (2008), Two Lovers (2008), and
+Country Strong (2010). She has two children with her former husband, English
+musician Chris Martin.</p>
+<!-- I have added a paragraph here, describing the actors' background and past/
+popular movies. The css picks up this element, to where I applied padding, text
+shadow and even weight to the font.-->
+
+<br>
+
+<h2 class="castname">Jeff Bridges</h2>
+<img src="image\jeffbridges.jpg" alt="jeffbridges" style="float:right;width:190px;height:250px;">
+<img src="image/ironmonger.jpg" style="float:right;width:480px;height:250px;">
+<!-- Here I have made effective use of the heading element, highlighting the cast
+member's name. The images element is also utilised here, to where i've applied
+alterations to the image such as, where I wanted the images situated, the width
+and height overall.-->
+
+</audio>
+<audio controls loop>
+  <source src="audio\interview.mp3" type="audio/mpeg">
+  <source src="audio\interview.wav" type="audio/wav">
+  <source src="audio\interview.ogg" type="audio/ogg">
+  Your browser does not support the audio element.
+</audio>
+<!-- The audio element is utilised perfectly here, where I have coded in three
+different formats of audio for the interviews. I've also applied a loop control,
+where viewers will listen to the audio on loop and pause when they want to.-->
+
+<p class="jb">Listen to Bridge's Latest EXCLUSIVE Interview <br> <br> Jeffrey
+Leon Bridges was born on December 4, 1949 in Los Angeles, California, the son
+of well-known film and TV star Lloyd Bridges and his long-time wife Dorothy
+Dean Bridges (née Simpson). He grew up amid the happening Hollywood scene with
+big brother Beau Bridges. He recovered and began shaping his nascent young
+adult career appearing on TV as a younger version of his father in the
+acclaimed TV- movie Silent Night, Lonely Night (1969), and in the strange
+Burgess Meredith film The Yin and the Yang of Mr. Go (1970).</p>
+<!-- I have added a paragraph here, describing the actors' background and past/
+popular movies. The css picks up this element, to where I applied padding, text
+shadow and even weight to the font.-->
+
+<br>
+
+<h2 class="castname">Terrence Howard</h2>
+<img src="image\terrence.jpg" alt="terrence" style="float:left;width:180px;height:250px">
+<img src="image\warmachine.jpg" alt="warmachine" style="float:left;width:430px;height:250px">
+<!-- Here I have made effective use of the heading element, highlighting the cast
+member's name. The images element is also utilised here, to where i've applied
+alterations to the image such as, where I wanted the images situated, the width
+and height overall.-->
+
+</audio>
+<audio controls loop>
+  <source src="audio\interview.mp3" type="audio/mpeg">
+  <source src="audio\interview.wav" type="audio/wav">
+  <source src="audio\interview.ogg" type="audio/ogg">
+  Your browser does not support the audio element.
+</audio>
+<!-- The audio element is utilised perfectly here, where I have coded in three
+different formats of audio for the interviews. I've also applied a loop control,
+where viewers will listen to the audio on loop and pause when they want to.-->
+
+<p class="th">Listen to Howard's Latest EXCLUSIVE Interview <br> <br> Terrence
+Howard was born in Chicago, Illinois, to Anita Jeanine Williams (née Hawkins)
+and Tyrone Howard. He was raised in Cleveland, Ohio. His love for acting came
+naturally, through summers spent with his great-grandmother, New York stage
+actress Minnie Gentry. He later began his acting career after being discovered
+on a New York City street by a casting director. Soon, he followed with several
+notable TV appearances on shows such as Living Single (1993), NYPD Blue (1993)
+and Soul Food (2000). He became well known for his lead role in the UPN TV
+series Sparks (1996).</p>
+<!-- I have added a paragraph here, describing the actors' background and past/
+popular movies. The css picks up this element, to where I applied padding, text
+shadow and even weight to the font.-->
 
 <footer>P2656310</footer>
+<!-- Footer element provides a section at the bottom of the page, where I can
+state my p number and also provide back to top links if I wanted to.-->
 
 </body>
 </html>
