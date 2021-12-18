@@ -1,0 +1,150 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+  /* I coded in the css here that the body text of the pages shall feature its
+text in the sans-serif, Helvetica, Arial font. This decision was stimulated due
+to the two fonts being scientifically proven to be the easiest fonts to read.*/
+
+header {
+  background-color: #be0000;
+  padding: 5px;
+  text-align: center;
+  font-size: 45px;
+  color: #FCC200;
+}
+  /* Here the header function in css has enabled me to custom the header of both
+  pages Home and Cast, altering the background colour, which effectively
+  elaborates the text. The padding is also applied, effecting the spacing around
+  the typography. Text is aligned to the centr, the size is applied and the
+  colour of the text. Overall, I knew that the two colours I chose for the
+  background and the text, would essentially be the main house colour scheme for
+  the rest of the two pages, to where I moved further with IronMan's colour scheme.*/
+
+nav {
+  float: left;
+  width: 30%;
+  height: 300px;
+  background: #FCC200;
+  padding: 20px;
+}
+/* I aspired to have the navigation selection of the page situated to the left,
+giving it the appropriate surrounding width, height, padding and background
+elaborating colour. IronMan's iconic golden yellow as the base for text and
+majority of the page appealed most and didn't cause too much uproar and a
+sickening dynamic.*/
+
+nav ul{
+  list-style-type: none;
+  padding: 50;
+}
+/* applying the 'ul' reference to the css nav, meant the bullet points are
+removed for the navigations. This creates much more a professional appeal.*/
+
+h2.castname {
+  font-style: italic;
+  text-shadow: 0 0 3px #FF0000, 0 0 10px #ffffff;
+}
+/* Cast names that I coded as h2's in html, were made italic using the font
+style css reference. For an additonal aspect of typographic elaboration and
+appeal to the page, I applied shadow to the text.*/
+
+p.rdj {
+  padding: 20px 700px 5px 20px;
+  text-shadow: 1px 1px 2px red;
+  font-weight: bold;
+}
+/* This paragraph reference was altered to have a specific amount of padding
+around the text, the appropriate amount to compliment the images aligned.
+I applied shadow to the paragraph, a red elaborating shadow that works with the
+dynamic of the colour scheme. Additionally made the text too.*/
+
+p.gp {
+  padding: 20px 30px 1px 620px;
+  text-shadow: 1px 1px 2px red;
+  font-weight: bold;
+}
+/* This paragraph reference was altered to have a specific amount of padding
+around the text, the appropriate amount to compliment the images aligned.
+I applied shadow to the paragraph, a red elaborating shadow that works with the
+dynamic of the colour scheme. Additionally made the text too.*/
+
+p.jb {
+  padding: 20px 700px 10px 50px;
+  text-shadow: 1px 1px 2px red;
+  font-weight: bold;
+}
+/* This paragraph reference was altered to have a specific amount of padding
+around the text, the appropriate amount to compliment the images aligned.
+I applied shadow to the paragraph, a red elaborating shadow that works with the
+dynamic of the colour scheme. Additionally made the text too.*/
+
+p.th {
+  padding: 10px 20px 80px 650px;
+  text-shadow: 1px 1px 2px red;
+  font-weight: bold;
+}
+/* This paragraph reference was altered to have a specific amount of padding
+around the text, the appropriate amount to compliment the images aligned.
+I applied shadow to the paragraph, a red elaborating shadow that works with the
+ dynamic of the colour scheme. Additionally made the text too.*/
+
+h1.syn {
+  text-shadow: 0 0 3px #FF0000, 0 0 10px #ffffff;
+}
+/* I aspired to have the 'Synopsis' text to be different in contrast to the
+description paragraph below. To make this stand out, I applied a shadow
+which had two different colours.*/
+
+p.tsdesc {
+  text-shadow: 1px 1px 5px red;
+  font-weight: bold;
+}
+/* A red shadow has been applied to work against the black text and yellow
+background. Text was made bold for further elaboration.*/
+
+a.home {
+  font-weight: 900;
+}
+/* The navigation links Home and Cast were altered to stand out further, to
+where I increased the weight of the font, more than if the text was made bold.*/
+
+a.cast {
+  font-weight: 900;
+}
+/* The navigation links Home and Cast were altered to stand out further, to
+where I increased the weight of the font, more than if the text was made bold.*/
+
+a.home2 {
+  font-weight: 900;
+}
+/* The navigation links Home and Cast were altered to stand out further, to
+where I increased the weight of the font, more than if the text was made bold.*/
+
+a.cast2 {
+  font-weight: 900
+}
+/* The navigation links Home and Cast were altered to stand out further, to
+where I increased the weight of the font, more than if the text was made bold.*/
+
+aside {
+  float: right;
+  padding: 20px;
+  width: 60%;
+  background-color: #FCC200;
+  height: 300px;
+}
+/* This aside section of information showcases the actual synopsis for the film
+and the float reference has been applied to the section to be situated to the
+right of the page. The padding, height and width creates an appropriate amount
+of space surrounding the section and the background colour was made the same
+colour as the majority of the background.*/
+
+footer {
+  background-color: #be0000;
+  padding: 20px;
+  text-align: center;
+  color: #FCC200;
+}
+/* The footer was referenced to have IronMan's iconic red colour as its
+background colour. Other than that, the padding was made appropriate, to 20px.
+Text was aligned to the centre and that was also featured as yellow text.*/
